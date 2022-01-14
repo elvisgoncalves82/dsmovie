@@ -37,6 +37,7 @@ function Listing() {
     return (
         <>
             <Pagination />
+            
             <div className="container">
                 <div className="row">
                     {page.content.map(movie => (
